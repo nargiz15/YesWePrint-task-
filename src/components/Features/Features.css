@@ -1,0 +1,47 @@
+.features {
+    background-color: #f3f4f6;
+    padding: 2rem 0;
+  }
+  
+  .features-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .features-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .feature-icon {
+    color: #2563eb;
+  }
+  
+  .feature-content {
+    flex: 1;
+  }
+  
+  .feature-title {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .feature-text {
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin: 0;
+  }
